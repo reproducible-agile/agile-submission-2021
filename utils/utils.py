@@ -9,7 +9,7 @@ np.random.seed(42)
 tf.set_random_seed(42)
 random.seed(42)
 
-import gdal, gdalconst
+from osgeo import gdal, gdalconst
 
 import os
 
@@ -18,7 +18,7 @@ from sklearn.model_selection import train_test_split
 import skimage.io
 import skimage.transform
 
-import ogr, osr
+from osgeo import ogr, osr
 from glob import glob
 
 def normalize_raster_locally(x):

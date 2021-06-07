@@ -27,7 +27,7 @@ from keras.callbacks import ModelCheckpoint, ReduceLROnPlateau, EarlyStopping
 import logging
 import os
 import sys
-import ogr
+from osgeo import ogr
 import keras
 from sklearn.model_selection import train_test_split
 import argparse

@@ -1,0 +1,2 @@
+acc,f1_m,loss,model_type,precision_m,recall_m,specific_name
+0.8787796161360466,0.6977567337366031,0.30944988930340267,segnetCustomized,0.7688989593480272,0.6399856043781083,simple_binary
